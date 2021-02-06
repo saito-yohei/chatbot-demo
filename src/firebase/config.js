@@ -6,7 +6,7 @@ const firebaseConfig = {
   storageBucket: "chatbot-demo-252f0.appspot.com",
   messagingSenderId: "590275569184",
   appId: "1:590275569184:web:79cedfe0adb776fc3afe45",
-  measurementId: "G-DRTLDMQE33"
+  measurementId: "G-DRTLDMQE33",
 };
 
 export default firebaseConfig;

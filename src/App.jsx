@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import React from 'react';
+// import logo from './logo.svg';
+// import React from 'react';
 import React, {useState, useEffect, useCallback} from 'react';
 import './assets/styles/style.css';
 import {AnswersList, Chats} from './components/';
@@ -70,7 +70,7 @@ const App = () => {
 
   const initDataset = (dataset) => {
     this.setState( { dataset: dataset } )
-  });
+  };
 
   componentDidMount() {
     (async() => {
